@@ -1,0 +1,115 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.4)*%
+%TF.CreationDate,2023-07-07T19:50:39-04:00*%
+%TF.ProjectId,Rotary Switch Board,526f7461-7279-4205-9377-697463682042,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Top*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.4)) date 2023-07-07 19:50:39*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%ADD10C,1.752600*%
+%ADD11C,1.400000*%
+%ADD12O,1.400000X1.400000*%
+%ADD13RotRect,1.600000X1.600000X315.000000*%
+%ADD14C,1.600000*%
+%ADD15HorizOval,1.400000X0.000000X0.000000X0.000000X0.000000X0*%
+%ADD16HorizOval,1.400000X0.000000X0.000000X0.000000X0.000000X0*%
+%ADD17C,1.800000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J6*%
+X125201447Y-104917525D03*
+%TD*%
+D11*
+%TO.C,R1*%
+X126788947Y-110600775D03*
+D12*
+X126788947Y-115680775D03*
+%TD*%
+D11*
+%TO.C,R4*%
+X136821947Y-100440775D03*
+D12*
+X141901947Y-100440775D03*
+%TD*%
+D10*
+%TO.C,*%
+X125995197Y-102536275D03*
+%TD*%
+D13*
+%TO.C,C1*%
+X128958180Y-117723008D03*
+D14*
+X132493714Y-121258542D03*
+%TD*%
+D10*
+%TO.C,*%
+X124407697Y-107298775D03*
+%TD*%
+D11*
+%TO.C,R2*%
+X128947947Y-113013775D03*
+D12*
+X128947947Y-107933775D03*
+%TD*%
+D11*
+%TO.C,R3*%
+X130199896Y-105030826D03*
+D15*
+X133791998Y-101438724D03*
+%TD*%
+D11*
+%TO.C,R5*%
+X149648947Y-107806775D03*
+D12*
+X149648947Y-112886775D03*
+%TD*%
+D11*
+%TO.C,R7*%
+X141901947Y-121141775D03*
+D12*
+X136821947Y-121141775D03*
+%TD*%
+D11*
+%TO.C,R6*%
+X148650998Y-115789724D03*
+D16*
+X145058896Y-119381826D03*
+%TD*%
+D17*
+%TO.C,SW1*%
+X132097560Y-113534840D03*
+X132098267Y-107412003D03*
+X136427175Y-103083095D03*
+X142550012Y-103082388D03*
+X146880334Y-107412710D03*
+X146880334Y-113534840D03*
+X142550012Y-117865162D03*
+X136427882Y-117865162D03*
+X137615114Y-108599942D03*
+%TD*%
+M02*
